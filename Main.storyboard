@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="DuesseldorferSchuelerinventarSwift" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="Gex-U9-bBm">
+                                <rect key="frame" x="0.0" y="40" width="375" height="607"/>
+                                <subviews>
+                                    <textField opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bjL-MV-lvu">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="28.5"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="von 36" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wtr-gq-CoH">
+                                        <rect key="frame" x="0.0" y="30.5" width="375" height="28.5"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dHu-VI-khW">
+                                        <rect key="frame" x="0.0" y="61" width="375" height="28.5"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dLM-ao-Zqs">
+                                        <rect key="frame" x="0.0" y="91.5" width="375" height="28.5"/>
+                                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" title="Weiter"/>
+                                        <connections>
+                                            <action selector="ButtonWeiter:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Pyi-cO-g8x"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vd7-Ay-cSo">
+                                        <rect key="frame" x="0.0" y="122" width="375" height="28.5"/>
+                                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" title="Immer"/>
+                                        <connections>
+                                            <action selector="ButtonImmer:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Mgu-6X-Ird"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2j1-oB-OnP">
+                                        <rect key="frame" x="0.0" y="152.5" width="375" height="28"/>
+                                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" title="Meistens"/>
+                                        <connections>
+                                            <action selector="ButtonMeistens:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Tlb-yO-Y0R"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uZ0-Fl-EaN">
+                                        <rect key="frame" x="0.0" y="182.5" width="375" height="28.5"/>
+                                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" title="Selten"/>
+                                        <connections>
+                                            <action selector="ButtonSelten:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9Rd-Y7-1pu"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nl2-GK-MYE">
+                                        <rect key="frame" x="0.0" y="213" width="375" height="28.5"/>
+                                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" title="Nie"/>
+                                        <connections>
+                                            <action selector="ButtonNie:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pqD-gJ-cy9"/>
+                                        </connections>
+                                    </button>
+                                    <textField opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Arbeitsverhalten" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="43F-Nz-Q3l">
+                                        <rect key="frame" x="0.0" y="243.5" width="375" height="28.5"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="aL2-Dx-WKg">
+                                        <rect key="frame" x="0.0" y="274" width="375" height="28.5"/>
+                                    </progressView>
+                                    <textField opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Lernverhalten" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yJ3-Ce-Hnq">
+                                        <rect key="frame" x="0.0" y="304.5" width="375" height="28.5"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="vcQ-R0-uqQ">
+                                        <rect key="frame" x="0.0" y="335" width="375" height="28.5"/>
+                                    </progressView>
+                                    <textField opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Sozialverhalten" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ky8-2i-bz9">
+                                        <rect key="frame" x="0.0" y="365.5" width="375" height="28.5"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Ild-Yt-iNR">
+                                        <rect key="frame" x="0.0" y="396" width="375" height="28.5"/>
+                                    </progressView>
+                                    <textField opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Fachkompetenz" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yzF-Or-S3Q">
+                                        <rect key="frame" x="0.0" y="426.5" width="375" height="28.5"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Mq4-Ws-YFG">
+                                        <rect key="frame" x="0.0" y="457" width="375" height="28"/>
+                                    </progressView>
+                                    <textField opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Personale Kompetenz" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qcA-TW-EZM">
+                                        <rect key="frame" x="0.0" y="487" width="375" height="28.5"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="AcB-B3-zY8">
+                                        <rect key="frame" x="0.0" y="517.5" width="375" height="28.5"/>
+                                    </progressView>
+                                    <textField opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Methodenkompetenz" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="iqd-8x-deg">
+                                        <rect key="frame" x="0.0" y="548" width="375" height="28.5"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="aBc-F4-fDi">
+                                        <rect key="frame" x="0.0" y="578.5" width="375" height="28.5"/>
+                                    </progressView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.75406885150000003" green="0.75408679249999999" blue="0.75407713649999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Gex-U9-bBm" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="4zl-PL-Bb4"/>
+                            <constraint firstItem="Gex-U9-bBm" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Ret-uH-Oyf"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Gex-U9-bBm" secondAttribute="bottom" constant="20" id="e3G-hC-eDV"/>
+                            <constraint firstItem="Gex-U9-bBm" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="o87-3X-SAn"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="ProgressViewKompetenz1" destination="aL2-Dx-WKg" id="Q3z-7d-fOM"/>
+                        <outlet property="ProgressViewKompetenz2" destination="vcQ-R0-uqQ" id="QHp-yQ-ef1"/>
+                        <outlet property="ProgressViewKompetenz3" destination="Ild-Yt-iNR" id="6a7-ax-Lk8"/>
+                        <outlet property="ProgressViewKompetenz4" destination="Mq4-Ws-YFG" id="IVp-8k-S3x"/>
+                        <outlet property="ProgressViewKompetenz5" destination="AcB-B3-zY8" id="dQX-vn-gKl"/>
+                        <outlet property="ProgressViewKompetenz6" destination="aBc-F4-fDi" id="MJJ-nP-Wgq"/>
+                        <outlet property="textItem" destination="dHu-VI-khW" id="hqU-PF-ATL"/>
+                        <outlet property="textItemNr" destination="bjL-MV-lvu" id="P1s-Tp-lOC"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="116" y="117.39130434782609"/>
+        </scene>
+    </scenes>
+</document>
