@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textItemNr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1" />
+
+    <TextView
+        android:id="@+id/textBis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="bis 36" />
+
+    <TextView
+        android:id="@+id/textItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Zuverlaessigkeit" />
+
+    <Button
+        android:id="@+id/buttonWeiter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="weiter" />
+
+    <Button
+        android:id="@+id/buttonImmer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="immer" />
+
+    <Button
+        android:id="@+id/buttonMeistens"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="meistens" />
+
+    <Button
+        android:id="@+id/buttonSelten"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="selten" />
+
+    <Button
+        android:id="@+id/buttonNie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="nie" />
+
+    <TextView
+        android:id="@+id/textKompetenz1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Arbeitsverhalten" />
+
+    <ProgressBar
+        android:id="@+id/progressBarKompetenz1"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="370dp"
+        android:layout_height="20dp" />
+
+    <TextView
+        android:id="@+id/textViewKompetenz2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lernverhalten" />
+
+    <ProgressBar
+        android:id="@+id/progressBarKompetenz2"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="370dp"
+        android:layout_height="20dp" />
+
+    <TextView
+        android:id="@+id/textViewKompetenz3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sozialverhalten" />
+
+    <ProgressBar
+        android:id="@+id/progressBarKompetenz3"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="370dp"
+        android:layout_height="20dp" />
+
+    <TextView
+        android:id="@+id/textViewKompetenz4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fachkompetenz" />
+
+    <ProgressBar
+        android:id="@+id/progressBarKompetenz4"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="370dp"
+        android:layout_height="20dp" />
+
+    <TextView
+        android:id="@+id/textViewKompetenz5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Personale Kompetenz" />
+
+    <ProgressBar
+        android:id="@+id/progressBarKompetenz5"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="370dp"
+        android:layout_height="20dp" />
+
+    <TextView
+        android:id="@+id/textViewKompetenz6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Methodenkompetenz" />
+
+    <ProgressBar
+        android:id="@+id/progressBarKompetenz6"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="370dp"
+        android:layout_height="20dp" />
+
+
+</LinearLayout>
