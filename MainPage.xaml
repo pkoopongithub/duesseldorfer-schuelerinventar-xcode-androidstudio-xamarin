@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="DuesseldorferSchuelerinventar.MainPage">
+
+    <StackLayout Margin="10,10,10,10">
+        <!-- Place new controls here -->
+        <Label Text="1"
+                  
+                    x:Name="textItemNr"/>
+        <Label Text="bis 36"
+                  
+                    x:Name="textBis"/>
+        <Label Text="Zuverlaessigkeit"
+                  
+                    x:Name="textItem"/>
+        <Button Text="weiter"
+                    
+                    x:Name="ButtonWeiter"
+                    Clicked="ButtonWeiter_Clicked"/>
+        <Button Text="immer"
+                    
+                    x:Name="ButtonImmer"
+                    Clicked="ButtonImmer_Clicked"/>
+        <Button Text="meistens"
+                    
+                    x:Name="ButtonMeistens"
+                    Clicked="ButtonMeistens_Clicked"/>
+        <Button Text="selten"
+                    
+                    x:Name="ButtonSelten"
+                    Clicked="ButtonSelten_Clicked"/>
+        <Button Text="nie"
+                    
+                    x:Name="ButtonNie"
+                    Clicked="ButtonNie_Clicked"/>
+
+        <Label Text="Arbeitsverhalten"
+                  
+                    x:Name="textKompetenz1"/>
+        <ProgressBar 
+                 
+                 x:Name="progressBarKompetenz1"
+                 Progress="0.5"/>
+        <Label Text="Lernverhalten"
+                  
+                    x:Name="textKompetenz2"/>
+        <ProgressBar 
+                 
+                 x:Name="progressBarKompetenz2"
+                 Progress="0.5"/>
+        <Label Text="Sozialverhalten"
+                  
+                    x:Name="textKompetenz3"/>
+        <ProgressBar 
+                 
+                 x:Name="progressBarKompetenz3"
+                 Progress="0.5"/>
+        <Label Text="Fachkompetenz"
+                  
+                    x:Name="textKompetenz4"/>
+        <ProgressBar 
+                 
+                 x:Name="progressBarKompetenz4"
+                 Progress="0.5"/>
+        <Label Text="Personale Kompetenn"
+                  
+                    x:Name="textKompetenz5"/>
+        <ProgressBar 
+                 
+                 x:Name="progressBarKompetenz5"
+                 Progress="0.5"/>
+        <Label Text="Methodenkompetenz"
+                  
+                    x:Name="textKompetenz6"/>
+        <ProgressBar 
+                 
+                 x:Name="progressBarKompetenz6"
+                 Progress="0.5"/>
+    </StackLayout>
+
+</ContentPage>
