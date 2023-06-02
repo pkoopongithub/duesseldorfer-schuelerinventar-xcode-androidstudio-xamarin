@@ -1,9 +1,9 @@
 <?php
 // Datenbankverbindung herstellen
-$dbhost = "rdbms.strato.de";
-$dbname = "DB3517771";
-$dbuser = "U3517771";
-$dbpass = "dBkNpI1000Jn";
+$dbhost = "";
+$dbname = "";
+$dbuser = "";
+$dbpass = "";
 
 $conn = new mysqli($dbhost, $dbuser, $dbpass, $dbname);
 if ($conn->connect_error) {
