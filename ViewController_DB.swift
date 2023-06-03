@@ -153,7 +153,7 @@ class ViewController: UIViewController {
         let semaphore = DispatchSemaphore(value: 0)
         
         // Erstelle die URL für die PHP-Datei
-        guard let url = URL(string: "https://example.com/insertOrUpdateSEint.php") else {
+        guard let url = URL(string: "https://mein-duesk.org/insertOrUpdateSEint.php") else {
             print("Fehler: Ungültige URL")
             return nil
         }
